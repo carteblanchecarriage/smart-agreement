@@ -1,0 +1,123 @@
+html {
+    margin: 0 0 60px 0;
+    padding: 0;
+    border: none;
+}
+
+#firstBody {
+    margin: 0px 15%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.metadata {
+    background-color: aquamarine;
+    font-style: italic;
+    display: inline;
+    position: relative;
+}
+
+.metadata .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    left: 0;
+    bottom: 2em;
+    z-index: 1;
+
+}
+
+.metadata:hover .tooltiptext {
+    visibility: visible;
+}
+
+h1 .tooltiptext {
+    visibility: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    bottom: 1.5em;
+    font-size: 16px;
+    z-index: 1;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h1:hover .tooltiptext {
+    visibility: visible;
+}
+
+p {
+    text-align: justify;
+}
+
+.conditionContainer {
+    padding: 30px 0 30px 0;
+    text-align: justify;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+#conditionNum {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#parameterID {
+    display: block;
+    padding: 5px 20px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: aquamarine;
+}
+
+#parameterID:hover {
+    background-color: red;
+}
+
+ul,
+.notes {
+    text-align: left;
+    text-justify: left;
+    margin: 20px 15%;
+}
+
+.outofBounds {
+    display: none;
+}
+
+#opening {
+    text-align: center;
+
+}
+
+#secondBody {
+    background-color: black;
+    color: white;
+    margin: 30px 0 0 0;
+    height: 200px;
+    width: 100%;
+}
+
+#conditionExp {
+    margin: 100px 0;
+}
